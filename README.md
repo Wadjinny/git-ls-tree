@@ -4,6 +4,14 @@ Browse the file tree of a git repository **across all branches** in a local webp
 
 Run it inside any git repository and it opens an interactive viewer showing the union of all file paths on every branch (names only, no content). Click a file to see which branches carry it, filter the tree by branch, or search by path.
 
+## Install from a release
+
+Each [release](https://github.com/Wadjinny/git-ls-tree/releases/latest) has a wheel you can install directly:
+
+```sh
+uv tool install https://github.com/Wadjinny/git-ls-tree/releases/download/v0.1.0/git_ls_tree-0.1.0-py3-none-any.whl
+```
+
 ## Run locally
 
 From this repo (browses this project's own branches):
